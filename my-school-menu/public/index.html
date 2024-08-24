@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>용인 홍천고등학교 홍점메</title>
+    <meta name="author" content="YCK08">
+    <meta name="description" content="오늘의 급식 메뉴는">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1, user-zoom=fixed">
+    <link rel="icon" href="./img/logo.png">
+    <link rel="apple-touch-icon" href="./img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="page--container">
+        <div class="content--container">
+            <div class="header--container">
+                <div class="logo-section">
+                    <img src="./img/logo.png" alt="용인 홍천고등학교 로고" class="logo">
+                    <h1 class="text-title">홍 점 메</h1>
+                </div>
+                <div class="configuration-section clearfix">
+                    <div class="float--left">
+                        <div class="btn" id="prev-day"><img src="./img/icon-left.png" alt="이전 날짜" class="img-arrow"></div>
+                    </div>
+                    <div class="date--information">
+                        <h2 class="text-date" id="current-date">6월 30일</h2>
+                    </div>
+                    <div class="float--right">
+                        <div class="btn" id="next-day"><img src="./img/icon-right.png" alt="다음 날짜" class="img-arrow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="body--container">
+                <div class="today-menu-wraper">
+                    <p class="text-main text-main-top"><점심 메뉴></p>
+                    <div id="menu-list">
+                        <!-- 여기에 메뉴 아이템이 동적으로 추가될 예정 -->
+                    </div>
+                    <input type="date" id="date-picker" class="date-picker">
+                </div>
+                <p class="text-credit top">주도성 프로젝트 2024 @YCK08</p>
+                <p class="text-credit">@연은호, @김민경, @조승훈</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

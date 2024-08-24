@@ -1,0 +1,14 @@
+Add-Content package.json @"
+{
+  "name": "my-school-menu",
+  "version": "1.0.0",
+  "description": "우리 학교 급식 메뉴를 보여주는 웹사이트",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+"@
